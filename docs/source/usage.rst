@@ -44,6 +44,16 @@ NEW TEXT
 Project Structure
 ------------
 
+Installation
+------------
+
+.. code-block:: console
+
+   (Incomplete)
+
+Install Dependencies
+----------------
+
 
 
 
