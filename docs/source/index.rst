@@ -1,8 +1,8 @@
-Welcome to Lumache's documentation!
+Team 3D - Auto Parts Finder!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**Auto Parts Finder** is a Part Finding Website/App that allows users to buy and sell parts.
+Users can match parts to their car and look for used or new parts.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
