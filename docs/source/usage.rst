@@ -32,3 +32,23 @@ For example:
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
+
+
+
+
+
+NEW TEXT
+
+.. _project structure:
+
+Project Structure
+------------
+
+
+
+
+
+
+
+
+
