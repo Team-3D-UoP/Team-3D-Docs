@@ -31,14 +31,14 @@ Third, install the required packages using the terminal:
 Dependencies
 ------------
 
-Flask>=3.0.0
-Flask-Cors>=4.0.0
-Flask-SQLAlchemy>=3.0.0
-firebase-admin>=6.0.0
-Pillow>=9.0.0
-python-dotenv>=0.19.0
-pytest>=8.0.0
-pytest-cov>=4.0.0
+- Flask>=3.0.0
+- Flask-Cors>=4.0.0
+- Flask-SQLAlchemy>=3.0.0
+- firebase-admin>=6.0.0
+- Pillow>=9.0.0
+- python-dotenv>=0.19.0
+- pytest>=8.0.0
+- pytest-cov>=4.0.0
 
 Running the Application
 -----------------------
