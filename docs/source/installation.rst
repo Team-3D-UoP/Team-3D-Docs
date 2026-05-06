@@ -1,10 +1,10 @@
 Installation
 ============
 
-Download Github Repository
---------------------------
+Download the Github Repository
+------------------------------
 
-First install the app from the Github repository:
+First, install the app from the Github repository:
 
 .. code-block:: console
 
@@ -13,7 +13,7 @@ First install the app from the Github repository:
 Navigate to the project
 -----------------------
 
-Then, navigate to the project directory using the terminal:
+Second, navigate to the project directory using the terminal:
 
 .. code-block:: console
 
@@ -22,7 +22,7 @@ Then, navigate to the project directory using the terminal:
 Download Dependencies
 ---------------------
 
-After that, install the required packages using the terminal:
+Third, install the required packages using the terminal:
 
 .. code-block:: console
 
