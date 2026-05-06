@@ -1,23 +1,19 @@
-Auto Parts Finder!
-===================================
+AutoPartFinder!
+===============
 
-**Auto Parts Finder** is a Part Finding Website/App that allows users to buy and sell parts.
-Users can match parts to their car and look for used or new parts.
-It pulls data from the `Temporary Car Database`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+**AutoPartFinder** is a Part Finding App that allows users to buy and sell car parts.
+Allowing users to search for parts using their registered vehicle details, whilst filtering and sorting results.
+If there are any stuggles users can contact support directly through the system offering a *simple* and *intuitive* API.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
    requirements
+   installation
+   userRequirements
+
+.. note::
+
+   This project is under active development.
