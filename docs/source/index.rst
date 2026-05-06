@@ -12,6 +12,7 @@ Contents
 
    requirements
    installation
+   GitHub
    implementation
    userRequirements
 
