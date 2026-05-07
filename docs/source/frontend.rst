@@ -5,25 +5,39 @@ The frontend of our project is built using HTML, CSS and JavaScript
 
 The frontend is split into multiple templates, including:
 
-Navigation routes
------------------
+Public routes
+-------------
+
+Accessible to all users.
 
 - homepage "/"
 - product listing "/product/{product_id}"
 - search "/search-results?q={query}"
-- user account "/account" (only for logged in users)
 - seller profile "/seller/{seller_id}"
 - seller reviews "/seller/{seller_id}/review"
-- cart "/cart" (only for logged in users)
-- admin dashboard "/admin" (only for admin users)
-- personal details "/personal-details" (only for logged in users)
-- car_registration "/car_registration" (only for logged in users)
-- part_registration "/part_registration" (only for logged in users)
 - login "/login"
 - registration "/register"
 - admin login "/admin-login"
-- my orders "/my-orders" (only for logged in users)
 - sellers "/sellers"
+
+Private routes
+--------------
+
+Accessible to logged in users only.
+
+- user account "/account"
+- cart "/cart"
+- personal details "/personal-details"
+- car_registration "/car_registration"
+- part_registration "/part_registration"
+- my orders "/my-orders"
+
+Admin routes
+------------
+
+Accessible to admin users only.
+
+- admin dashboard "/admin"
 
 Other frontend features
 -----------------------
