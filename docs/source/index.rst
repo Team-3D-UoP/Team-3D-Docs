@@ -14,6 +14,7 @@ Contents
    installation
    GitHub
    implementation
+   frontend
    userRequirements
 
 .. note::
