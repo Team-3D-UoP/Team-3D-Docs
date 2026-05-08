@@ -17,14 +17,13 @@ Authentication
 
 Cart
 
-- /api/cart - POST - 
-- /api/cart - GET - 
-- /api/cart/add
-- /api/cart/item/<int:item_id>
-- /api/cart/item/<int:item_id> - DELETE -
-- /api/cart/item/<int:item_id> - PUT -
-- /api/cart/remove
-- /api/cart/update
+- /api/cart - POST - add_product_to_cart() - adds an item to the cart, with id, name, price and quantity (For non-authenticated users)
+- /api/cart - GET - get_cart() - retrieves all items in the user's cart
+- /api/cart/add - add_to_cart() - adds an item to the cart, aswell as to the firebase DB for persistent storage (For authenticated users)
+- /api/cart/item/<int:item_id> - DELETE - remove_from_cart(item_id) - removes an item from the cart depending on the item_id
+- /api/cart/item/<int:item_id> - PUT - update_cart_item(item_id) - updates the quantity of an item in the cart depending on the item_id and post quantity
+- /api/cart/remove - remove_cart_item() - removes an item from the cart, depending on the JSON data
+- /api/cart/update - update_cart_quantity() - updates the quantity of an item in the cart using increments
 
 Chat
 
