@@ -1,6 +1,10 @@
 Backend
 =======
 
+The backend of our project is built using the Flask framework for Python.
+
+All of the backend code is located in the `app.py` file, consisting of multiple API endpoints, including:
+
 API List
 --------
 
