@@ -10,10 +10,10 @@ API List
 
 Authentication
 
-- /api/authenticate
-- /api/admin/login
-- /api/admin/logout
-- /logout
+- /api/authenticate - authenticate() - Authenticate a user using Google Firebase, crates a user account if not already exists, enables `authenticated` for access to private routes
+- /api/admin/login - admin_login() - Login to an admin account using hardcoded username and password, enables `admin_authenticated` for access to admin routes
+- /api/admin/logout - admin_logout() - Logout of the current admin account and move to the main homepage
+- /logout - logout() - Logout of the current account and move to the main homepage
 
 Cart
 
