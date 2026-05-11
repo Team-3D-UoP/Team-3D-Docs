@@ -1,6 +1,14 @@
 How we implemented the project
 ==============================
 
+User Types
+----------
+
+Our projects has two types of users: customers and admins. Customers are able to register cars, car parts and purchase car parts, as well as leave reviews and contact support. Admins provide support to customers, and have access to a dashboard showing user statistics, as well as reply to customer's messages.
+
+Three-Layered Application
+-------------------------
+
 Our project is a three-layered application, consisting of a frontend, backend and multiple databases:
 
 Frontend
