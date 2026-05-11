@@ -27,13 +27,13 @@ Cart
 
 Chat
 
-- /api/chat/clear-all
-- /api/chat/delete/<message_id>
-- /api/chat/get-customer-messages
-- /api/chat/messages
-- /api/chat/reply
-- /api/chat/send
-- /api/chat/unread-count
+- /api/chat/clear-all - clear_all_chats() - Clears all chats from the firebase database (`admin_authenticated` only)
+- /api/chat/delete/<message_id> - delete_chat_message(message_id) - Deletes a single chat with message_id from the firebase database (`admin_authenticated` only)
+- /api/chat/get-customer-messages - get_customer_messages() - Gets chat messages from the firebase database, showing all results if `admin_authenticated` is true, or only chats with the correct email if false
+- /api/chat/messages - get_chat_messages() - Admin only route to get all chat messages from the firebase database (`admin_authenticated` only)
+- /api/chat/reply - reply_to_chat() - Route for an admin to reply to a chat message using the firebase database (`admin_authenticated` only)
+- /api/chat/send - send_chat_message() - Route for a user to send a chat message using the firebase database
+- /api/chat/unread-count - unread_chat_count() - Gets the count of unread chat messages for an admin from the firebase database (`admin_authenticated` only)
 
 Dashboard
 
