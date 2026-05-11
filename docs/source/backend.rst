@@ -43,8 +43,8 @@ Admin Dashboard
 
 Orders
 
-- /api/orders/place
-- /api/orders/user-orders
+- /api/orders/place - place_order() - Places an order using the current user's cart with the firebase database (For authenticated users)
+- /api/orders/user-orders - get_user_orders() - Gets all orders for the current user from the firebase database (For authenticated users)
 
 Parts
 
