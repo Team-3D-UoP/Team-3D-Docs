@@ -35,11 +35,11 @@ Chat
 - /api/chat/send - send_chat_message() - Route for a user to send a chat message using the firebase database
 - /api/chat/unread-count - unread_chat_count() - Gets the count of unread chat messages for an admin from the firebase database (`admin_authenticated` only)
 
-Dashboard
+Admin Dashboard
 
-- /api/dashboard/carts
-- /api/dashboard/reviews
-- /api/dashboard/users
+- /api/dashboard/carts - dashboard_carts() - Gets a cart statistics connected to the system (`admin_authenticated` only)
+- /api/dashboard/reviews - dashboard_reviews() - Gets a count of all reviews connected to the system (`admin_authenticated` only)
+- /api/dashboard/users - dashboard_users() - Gets a count of all users connected to the system (`admin_authenticated` only)
 
 Orders
 
