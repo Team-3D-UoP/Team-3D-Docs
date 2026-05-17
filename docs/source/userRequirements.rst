@@ -55,3 +55,13 @@ UR-11 (functional) Admin dashboard
 ----------------------------------
 
 Implemented
+
+Non-Functional Requirements
+===========================
+
+- Usability
+- Security
+- Reliability
+- Performance
+- Data integrity
+- Maintainability
