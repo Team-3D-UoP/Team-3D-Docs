@@ -52,6 +52,7 @@ Parts
 - /api/parts/brands - get_brands() - Gets a list of all part brands in the system for filtering purposes
 - /api/parts/search - search_parts() - Search for parts from the that are related to the search query
 - /api/parts/<int:part_id> - get_part_detail(part_id) - Gets part with a specific part id
+- /api/offers - get_offers() - Gets all offered products from the hardcoded offers list
 
 Registrations
 
