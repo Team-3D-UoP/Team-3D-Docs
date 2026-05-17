@@ -33,3 +33,12 @@ Databases
 - SQLite for storing car parts and cars - chosen for its simplicity and suitability for the application's needs
 
 Three databases were used so that we could develop multiple parts of the project concurrently.
+
+Testing
+-------
+
+Uses pytest for testing the backend API endpoints.
+
+Located in /Tests and /TestsAutomated
+
+TestsAutomated created based on the test plan
