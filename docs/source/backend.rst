@@ -59,8 +59,8 @@ Placeholder Images
 
 Registrations
 
-- /api/save_car_registration
-- /api/save_part_registration
+- /api/save_car_registration - save_car_registration() - recieves car details and calls a function to save the car registration to the SQLite3 database
+- /api/save_part_registration - save_part_registration() - recieves part details and calls a function to save the part registration to the SQLite3 database
 
 Reviews
 
