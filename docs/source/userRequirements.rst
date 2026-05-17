@@ -1,58 +1,57 @@
 User Requirements
 =================
 
-Friendly UI 
------------
+UR-01 User account management
+-----------------------------
 
-A clear and accessible interface is required that allows users of varying technical ability to navigate core features such as searching, filtering, and purchasing car parts with minimal help. 
+Implemented
 
-Vehicle matched sorting search 
-------------------------------
+UR-02 Vehicle-matched search
+----------------------------
 
-Users should be able to search for car parts using vehicle details such as make, model, and year to ensure that only relevant parts are displayed. 
+Implemented 
 
-Compatibility verification 
---------------------------
+UR-03 Compatibility verification
+--------------------------------
 
-Users should be able to easily determine whether a car part is compatible with their vehicle to reduce the risk of incorrect purchases. 
+Implemented - Done by matching part and car brands
 
-Advanced filtering and sorting 
-------------------------------
+UR-04 Advanced filtering and sorting
+------------------------------------
 
-Users should be able to filter and sort car parts by criteria such as price, condition, brand, and compatibility. 
+Implemented
 
-Used parts marketplace 
-----------------------
+UR-05 Used parts marketplace
+----------------------------
 
-Users should have the option to view, and purchase used car parts in good condition as an affordable alternative. 
+Somewhat implemented - Users can register used parts, but shown parts are hardcoded
 
-Seller verification visibility 
-------------------------------
+UR-06 Seller verification visibility
+------------------------------------
 
-Users should be able to clearly identify verified sellers to increase trust and reduce scams. 
+Implemented (Authenticity shown by review ratings)
 
-User reviews visibility 
------------------------
+UR-07 User reviews visibility 
+-----------------------------
 
-Users should be able to view another user's reviews for increased trust 
+Implemented
 
-Detailed part listing 
----------------------
+UR-08 Detailed part listing 
+---------------------------
 
-Each listing should display detailed information including part number, condition, and compatibility. 
+Implemented
 
-Direct communication with sellers 
----------------------------------
+UR-09 Direct communication with sellers (chat) 
+----------------------------------------------
 
-Users should be able to message sellers or mechanics directly through the system. 
+Implemented
 
-User account management 
------------------------
+UR-10 (functional) Cart & checkout 
+----------------------------------
 
-Users should be able to create and manage an account to store vehicle details, purchases, and messages. 
+Implemented
 
-Price comparison support
------------------------- 
+UR-11 (functional) Admin dashboard 
+----------------------------------
 
-Users should be able to compare prices for the same or similar parts across multiple sellers. 
-
+Implemented
