@@ -40,6 +40,15 @@ Dependencies
 - pytest>=8.0.0
 - pytest-cov>=4.0.0
 
+Running Tests
+-------------
+
+Optionally, you can run tests to ensure everything is working:
+
+.. code-block:: console
+
+    Run with python -m pytest
+
 Running the Application
 -----------------------
 
