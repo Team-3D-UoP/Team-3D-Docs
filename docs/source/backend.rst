@@ -48,10 +48,10 @@ Orders
 
 Parts
 
-- /api/parts/all
-- /api/parts/brands
-- /api/parts/search
-- /api/parts/<int:part_id>
+- /api/parts/all - get_all_parts() - Gets a list of all parts in the system
+- /api/parts/brands - get_brands() - Gets a list of all part brands in the system for filtering purposes
+- /api/parts/search - search_parts() - Search for parts from the that are related to the search query
+- /api/parts/<int:part_id> - get_part_detail(part_id) - Gets part with a specific part id
 
 Placeholder Images
 
