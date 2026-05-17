@@ -53,10 +53,6 @@ Parts
 - /api/parts/search - search_parts() - Search for parts from the that are related to the search query
 - /api/parts/<int:part_id> - get_part_detail(part_id) - Gets part with a specific part id
 
-Placeholder Images
-
-- /api/placeholder-image/<part_name>
-
 Registrations
 
 - /api/save_car_registration - save_car_registration() - recieves car details and calls a function to save the car registration to the SQLite3 database
