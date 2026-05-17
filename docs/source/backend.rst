@@ -85,3 +85,12 @@ Frontend Routes
 - /part_registration
 - /my-orders
 - /admin
+
+Testing
+-------
+
+Uses pytest for testing the backend API endpoints. Located in /Tests and /TestsAutomated
+
+Tests for all front-end testing are located in /Tests
+
+Tests for automated testing are located in /TestsAutomated (Populated from test plan)
