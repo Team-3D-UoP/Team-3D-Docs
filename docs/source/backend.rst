@@ -61,13 +61,12 @@ Registrations
 
 Reviews
 
-- /account/<int:user_id>/reviews
-- /api/user/reviews
-- /product/<int:product_id>/review
-- /product/<int:product_id>/reviews
-- /product/<int:product_id>/reviews/<int:review_id>
-- /seller/<int:seller_id>/review
-- /api/offers
+- /account/<int:user_id>/reviews - get_seller_reviews(user_id) - Gets all user reviews based on a seller id
+- /api/user/reviews - get_user_reviews() - Gets all user reviews based on the current user's id (For authenticated users)
+- /product/<int:product_id>/review - submit_review(product_id) - Submit a review for a product with a specific product id (For authenticated users)
+- /product/<int:product_id>/reviews - get_product_reviews(product_id) - Get all reviews for a product depending on the product id
+- /product/<int:product_id>/reviews/<int:review_id> - delete_review(product_id, review_id) - Deletes a review for a product based on the review id (For authenticated users)
+- /seller/<int:seller_id>/review - submit_seller_review(seller_id) - Submit a review for a seller with a specific seller id (For authenticated users)
 
 Frontend Routes
 
